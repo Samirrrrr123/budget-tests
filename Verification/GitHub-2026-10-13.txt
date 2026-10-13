@@ -1,0 +1,22 @@
+GitHub Actions: 13.10.2026
+https://github.com/Samirrrrr123/budget-tests/actions/runs/38372418486
+
+Вывод шага Run tests (фрагмент, без временных меток):
+
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 8.0.31)
+[xUnit.net 00:00:00.14]   Discovering: BudgetApi.Tests
+[xUnit.net 00:00:00.27]   Discovered:  BudgetApi.Tests
+[xUnit.net 00:00:00.27]   Starting:    BudgetApi.Tests
+[xUnit.net 00:00:00.57]   Finished:    BudgetApi.Tests
+  Passed BudgetControllerTests.Calculate_DecimalDailyCost_Returns301Point50 [257 ms]
+  Passed BudgetControllerTests.Calculate_WithInsurance_Returns525 [< 1 ms]
+  Passed BudgetControllerTests.Calculate_WithoutInsurance_Returns500 [< 1 ms]
+  Passed BudgetControllerTests.Calculate_ZeroDailyCost_ReturnsZero [< 1 ms]
+  Passed BudgetControllerTests.Calculate_NegativeDays_ReturnsBadRequest [4 ms]
+
+Test Run Successful.
+Total tests: 5
+     Passed: 5
+ Total time: 2.8448 Seconds
+
+
