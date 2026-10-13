@@ -46,4 +46,5 @@ dotnet test BudgetTests.sln --collect:"XPlat Code Coverage"
 
 Покрытие строк и веток метода `Calculate` — **100%**. Проверены оба исхода условий `Days <= 0` и `IncludeInsurance`. Это покрытие метода расчёта, а не всего веб-приложения.
 
-[Отчёт покрытия](Verification/Recheck-2026-10-11/e62866ef-2825-4f26-ac39-0105f435fa65/coverage.cobertura.xml).
+[Отчёт покрытия](Verification/Recheck-2026-10-11/coverage.cobertura.xml).
+
