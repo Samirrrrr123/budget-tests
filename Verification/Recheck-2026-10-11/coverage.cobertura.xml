@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.7222" branch-rate="1" version="1.9" timestamp="1791726242" lines-covered="13" lines-valid="18" branches-covered="4" branches-valid="4">
+  <sources>
+    <source>.</source>
+  </sources>
+  <packages>
+    <package name="BudgetApi" line-rate="0.7222" branch-rate="1" complexity="8">
+      <classes>
+        <class name="Program" filename="Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;Main&gt;$" signature="(System.String[])" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="1" hits="0" branch="False" />
+                <line number="2" hits="0" branch="False" />
+                <line number="4" hits="0" branch="False" />
+                <line number="5" hits="0" branch="False" />
+                <line number="6" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="1" hits="0" branch="False" />
+            <line number="2" hits="0" branch="False" />
+            <line number="4" hits="0" branch="False" />
+            <line number="5" hits="0" branch="False" />
+            <line number="6" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="BudgetApi.Models.BudgetRequest" filename="Models\BudgetRequest.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_DailyCost" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="9" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Days" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="14" branch="False" />
+              </lines>
+            </method>
+            <method name="get_IncludeInsurance" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="9" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="9" branch="False" />
+            <line number="6" hits="14" branch="False" />
+            <line number="7" hits="9" branch="False" />
+          </lines>
+        </class>
+        <class name="BudgetApi.Controllers.BudgetController" filename="Controllers\BudgetController.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="Calculate" signature="(BudgetApi.Models.BudgetRequest)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="12" hits="5" branch="False" />
+                <line number="13" hits="5" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="15" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="14" hits="1" branch="False" />
+                <line number="16" hits="4" branch="False" />
+                <line number="18" hits="4" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="62" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+                <line number="23" hits="4" branch="False" />
+                <line number="24" hits="5" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="5" branch="False" />
+            <line number="13" hits="5" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="15" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="14" hits="1" branch="False" />
+            <line number="16" hits="4" branch="False" />
+            <line number="18" hits="4" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="62" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="23" hits="4" branch="False" />
+            <line number="24" hits="5" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
+
