@@ -1,0 +1,15 @@
+  BudgetApi -> BudgetTests\BudgetApi\bin\Debug\net8.0\BudgetApi.dll
+  BudgetApi.Tests -> BudgetTests\BudgetApi.Tests\bin\Debug\net8.0\BudgetApi.Tests.dll
+Test run for BudgetTests\BudgetApi.Tests\bin\Debug\net8.0\BudgetApi.Tests.dll (.NETCoreApp,Version=v8.0)
+VSTest version 17.11.1 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Results File: BudgetTests\Verification\AfterFix\after-fix.trx
+
+Passed!  - Failed:     0, Passed:     5, Skipped:     0, Total:     5, Duration: 8 ms - BudgetApi.Tests.dll (net8.0)
+
+Attachments:
+  BudgetTests\Verification\AfterFix\8df5c8d1-6dc2-4f99-ad97-779a3516f9d0\coverage.cobertura.xml
+
+
